@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   document.getElementById("btn").addEventListener("click", () => {
-    document.getElementById("name").innerHTML = domainName();
+    document.getElementById("name").innerHTML = dominio();
   });
 };
 
@@ -16,7 +16,7 @@ let adj = ["magnificent", "little", "amazing"];
 let noun = ["cat", "dog", "frog"];
 let extension = [".com", ".es", ".org"];
 
-function domainName() {
+function dominio() {
   let url = "";
 
   for (let i = 0; i < pronoun.length; i++) {
